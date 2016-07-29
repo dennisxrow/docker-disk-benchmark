@@ -1,3 +1,4 @@
+#test
 FROM centos:7
 
 MAINTAINER "dennisxrow"
