@@ -1,14 +1,5 @@
 #!/bin/bash
-#hdparm -Ttv /dev/sda
-#dd if=/dev/zero of=/root/testfile bs=512 count=1000 oflag=direct
-#dd if=/dev/zero of=/root/testfile bs=512000 count=1000 oflag=direct
 
-echo "////////////////////////////////////////////"
-echo "/// hdparm:"
-echo "////////////////////////////////////////////"
-hdparm -Ttv /dev/sda
-
-echo ""
 echo "////////////////////////////////////////////"
 echo "/// Starting many Threads (sysbench):"
 echo "////////////////////////////////////////////"
